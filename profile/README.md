@@ -34,7 +34,7 @@ We thrive on community involvement! Whether you're reporting a bug, suggesting a
 
 1.  **Explore Our Repositories**: Check out the projects listed on our profile. They are the heart of what we do.
 2.  **Report Issues**: Found a bug or have an idea? Please open a new [Issue](https://github.com/Gitdigital-products/.github/issues) in the relevant project repository.
-3.  **Contribute Code**: Please review our full [Contributing Guidelines]([https://gitdigital.link.pc.net CONTRIBUTING.md file]) before submitting a Pull Request. We appreciate clean, well-documented code!
+3.  **Contribute Code**: Please review our full [Contributing Guidelines]([https://gitdigital.link.pc.net/CONTRIBUTING.md file]) before submitting a Pull Request. We appreciate clean, well-documented code!
 
 ---
 
