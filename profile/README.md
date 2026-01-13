@@ -33,8 +33,8 @@ We thrive on community involvement! Whether you're reporting a bug, suggesting a
 ### How to Get Involved
 
 1.  **Explore Our Repositories**: Check out the projects listed on our profile. They are the heart of what we do.
-2.  **Report Issues**: Found a bug or have an idea? Please open a new [Issue](https://github.com/Gitdigital-products/your-main-repo/issues) in the relevant project repository.
-3.  **Contribute Code**: Please review our full [Contributing Guidelines]([PLACEHOLDER: link to your organization's CONTRIBUTING.md file]) before submitting a Pull Request. We appreciate clean, well-documented code!
+2.  **Report Issues**: Found a bug or have an idea? Please open a new [Issue](https://github.com/Gitdigital-products/.github/issues) in the relevant project repository.
+3.  **Contribute Code**: Please review our full [Contributing Guidelines]([PLACEHOLDER: https://gitdigital.link.pc.net CONTRIBUTING.md file]) before submitting a Pull Request. We appreciate clean, well-documented code!
 
 ---
 
@@ -43,8 +43,8 @@ We thrive on community involvement! Whether you're reporting a bug, suggesting a
 Here is where the community can find all our official documentation, support channels, and more.
 
 * **Official Documentation**: [Find our complete product and API documentation here]([PLACEHOLDER: link to your documentation site])
-* **Official Website**: [Visit our main company website]([PLACEHOLDER: link to your main website])
-* **Support/Help**: For technical support, please check our [Support Portal]([PLACEHOLDER: link to your support/help center])
+* **Official Website**: [Visit our main company website]([PLACEHOLDER: https://gitdigital.link.pc.net])
+* **Support/Help**: For technical support, please check our [Support Portal]([PLACEHOLDER: https://gitdigital.link.pc.net/customer-suppor])
 
 ---
 
