@@ -1,3 +1,15 @@
+
+https://img.shields.io/github/license/Gitdigital-products/.github-private
+
+![CI](https://github.com/Gitdigital-products/`
+.girhub-private/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Gitdigital-products/.github-private
+
+
+
+![Stars](https://img.shields.io/github/stars/Gitdigital-products)---
+```
+
 # Contributing Guidelines
 1. Fork the repository.
 2. Create a new branch for your feature or fix.
