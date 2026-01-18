@@ -10,6 +10,43 @@
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
+
+https://img.shields.io/badge/LABEL-MESSAGE-COLOR?style=STYLE&logo=Gitdigital-products
+https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white
+https://img.shields.io/github/license/Gitdigital-products/.github
+https://github.com/Gitdigital-products/.github/actions/workflows/ci.yml/badge.svg
+
+![CI](https://github.com/Gitdigital-products/R
+.github/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Gitdigital-products/.github
+
+
+![CI](https://github.com/Gitdigital-products/.github/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Gitdigital-products/.guthub
+
+https://github.com/Gitdigital-products/.guthub/actions/workflows/ci.yml/badge.svg
+```
+
+```
+![Stars](https://img.shields.io/github/stars/Gitdigital-products)---
+```
+```
+
+
+![Stars](https://img.shields.io/github/stars/Gitdigital-products)---
+https://img.shields.io/github/stars/Gitdigital-products
+https://img.shields.io/github/license/Gitdigital-products/.github-private
+https://github.com/Gitdigital-products/
+![CI](https://github.com/Gitdigital-products/`
+.girhub-private/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Gitdigital-products/.github-private
+
+
+``
+![Stars](https://img.shields.io/github/stars/Gitdigital-products)---
+```
+```
+
 # 👋 Welcome to Gitdigital-products!
 
 We are a passionate and dedicated team focused on building **high-quality, innovative digital products** that solve real-world problems. Our mission is to leverage modern technology to create seamless, intuitive, and impactful user experiences for our community and customers.
