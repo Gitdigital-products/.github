@@ -1,4 +1,4 @@
-```markdown
+
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 
@@ -7,8 +7,8 @@
 
 <!-- Technology Badges -->
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-```
-```markdown
+
+
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 ![Security Scanning](https://img.shields.io/badge/security-scanning-inactive-red)
@@ -25,7 +25,7 @@
 
 <!-- Community Badges -->
 ![Governance](https://img.shields.io/badge/governance-partial-orange)
-```
+
 
 
 **Core Badge Verification Workflow** (`.github/workflows/badge-verification.yml`):
@@ -71,7 +71,7 @@ jobs:
 ```
 
 
-```markdown
+
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 
@@ -80,10 +80,10 @@ jobs:
 
 <!-- Technology Badges -->
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-```
 
 
-```markdown
+
+
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 ![Security Scanning](https://img.shields.io/badge/security-scanning-active-green)
@@ -110,7 +110,7 @@ jobs:
 
 <!-- Community Badges -->
 ![License](https://img.shields.io/badge/license-MIT-yellow)
-```
+
 
 
 # Solana KYC Compliance SDK
