@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference Index 1–768</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS RESET & BASE STYLES */
+        :root {
+            --bg-color-light: #ffffff;
+            --text-color-light: #333333;
+            --item-bg-light: #ffffff;
+            --item-hover-light: #f0f0f0;
+            --tenth-bg-light: #f8f9fa;
+            --tenth-hover-light: #e0e0e0;
+            --hundredth-bg-gradient-start: #3b82f6;
+            --hundredth-bg-gradient-end: #2563eb;
+            --hundredth-text-light: #ffffff;
+            --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.05);
+            --shadow-hover-light: 0 4px 10px rgba(0, 0, 0, 0.1);
+            --header-color-light: #333333;
+
+            --bg-color-dark: #1a1a1a;
+            --text-color-dark: #e0e0e0;
+            --item-bg-dark: #2c2c2c;
+            --item-hover-dark: #3a3a3a;
+            --tenth-bg-dark: #3a3a3a;
+            --tenth-hover-dark: #4a4a4a;
+            --hundredth-text-dark: #ffffff;
+            --shadow-dark: 0 2px 5px rgba(0, 0, 0, 0.2);
+            --shadow-hover-dark: 0 4px 10px rgba(0, 0, 0, 0.3);
+            --header-color-dark: #e0e0e0;
+
+            --primary-blue: #3b82f6;
+            --gray-light: #f8f9fa;
+            --gray-medium: #e0e0e0;
+            --icon-color: #6c757d;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body.dark-mode {
+            background-color: var(--bg-color-dark);
+            color: var(--text-color-dark);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 32px;
+            color: var(--header-color-light);
+            transition: color 0.3s ease;
+        }
+
+        body.dark-mode .header {
+            color: var(--header-color-dark);
+        }
+
+        /* UI Controls */
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 32px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .controls input[type="search"],
+        .controls select,
+        .controls button {
+            padding: 10px 15px;
+            border-radius: 6px;
+            border: 1px solid var(--gray-medium);
+            background-color: var(--item-bg-light);
+            color: var(--text-color-light);
+            transition: all 0.2s ease;
+            font-size: 1em;
+        }
+
+        body.dark-mode .controls input[type="search"],
+        body.dark-mode .controls select,
+        body.dark-mode .controls button {
+            background-color: var(--item-bg-dark);
+            border-color: #555;
+            color: var(--text-color-dark);
+        }
+        
+        .controls button {
+            cursor: pointer;
+            background-color: var(--primary-blue);
+            color: white;
+            border-color: var(--primary-blue);
+            font-weight: 500;
+        }
+
+        .controls button:hover {
+            opacity: 0.9;
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+            gap: 16px;
+        }
+
+        .grid-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Number left, status right */
+            padding: 12px 16px;
+            border-radius: 8px;
+            background-color: var(--item-bg-light);
+            color: var(--text-color-light);
+            box-shadow: var(--shadow-light);
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+            position: relative; /* For annotation/checkbox overlay */
+            text-decoration: none; /* For link styling */
+            cursor: pointer; /* Indicate interactivity */
+            min-height: 40px; /* Ensure consistent height */
+        }
+
+        body.dark-mode .grid-item {
+            background-color: var(--item-bg-dark);
+            color: var(--text-color-dark);
+            box-shadow: var(--shadow-dark);
+        }
+
+        .grid-item:hover {
+            background-color: var(--item-hover-light);
+            box-shadow: var(--shadow-hover-light);
+        }
+
+        body.dark-mode .grid-item:hover {
+            background-color: var(--item-hover-dark);
+            box-shadow: var(--shadow-hover-dark);
+        }
+
+        .grid-item .number {
+            font-weight: 500;
+            font-size: 1.1em;
+            white-space: nowrap; /* Prevent number wrapping */
+            flex-shrink: 0;
+        }
+
+        .grid-item .annotation-space {
+            flex-grow: 1;
+            min-width: 20px; /* Minimum space for potential hover actions */
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: calc(100% - 70px); /* Leave space for number and indicators */
+        }
+        
+        /* Status Indicators (Badges) */
+        .status-indicators {
+            display: flex;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+
+        .status-badge {
+            font-size: 0.75em;
+            padding: 4px 6px;
+            border-radius: 4px;
+            background-color: var(--gray-light);
+            color: var(--icon-color);
+            font-weight: 500;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        body.dark-mode .status-badge {
+            background-color: #555;
+            color: #ccc;
+        }
+
+        .status-badge.api-ready { background-color: #d1e7dd; color: #0a3622; } /* Green-ish */
+        .status-badge.link-verified { background-color: #cff4fc; color: #055160; } /* Blue-ish */
+        .status-badge.milestone { background-color: #ffecb5; color: #664d03; } /* Yellow-ish */
+
+        /* Specific Number Styling */
+        .grid-item.tenth {
+            background-color: var(--tenth-bg-light);
+            box-shadow: var(--shadow-light); /* Still subtle */
+        }
+        body.dark-mode .grid-item.tenth {
+            background-color: var(--tenth-bg-dark);
+        }
+        .grid-item.tenth:hover {
+            background-color: var(--tenth-hover-light);
+        }
+        body.dark-mode .grid-item.tenth:hover {
+            background-color: var(--tenth-hover-dark);
+        }
+
+        .grid-item.hundredth {
+            background: linear-gradient(135deg, var(--hundredth-bg-gradient-start), var(--hundredth-bg-gradient-end));
+            color: var(--hundredth-text-light);
+            box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2);
+            position: relative; /* For gradient and icon */
+        }
+        body.dark-mode .grid-item.hundredth {
+            box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
+        }
+        .grid-item.hundredth:hover {
+             /* Darker blue gradient on hover */
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            box-shadow: 0 6px 15px rgba(59, 130, 246, 0.3);
+        }
+        .grid-item.hundredth .number {
+            color: var(--hundredth-text-light); /* Ensure text stays white */
+            font-weight: 700;
+        }
+
+        .milestone-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: white; /* White dot for hundredth */
+            margin-right: 8px;
+            flex-shrink: 0;
+            display: none; /* Hidden by default */
+        }
+        .grid-item.hundredth .milestone-indicator {
+            display: block; /* Show only for hundredth */
+        }
+
+        /* Modal for Details */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: var(--item-bg-light);
+            margin: auto;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            color: var(--text-color-light);
+        }
+        body.dark-mode .modal-content {
+            background-color: var(--item-bg-dark);
+            color: var(--text-color-dark);
+        }
+
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: var(--text-color-light);
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        body.dark-mode .close-button {
+            color: var(--text-color-dark);
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: var(--primary-blue);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-title {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--gray-medium);
+            padding-bottom: 10px;
+        }
+        body.dark-mode .modal-title {
+             border-bottom-color: #555;
+        }
+
+        .modal-body p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .modal-body a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        .modal-body a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header {
+                font-size: 2em;
+            }
+            .grid-container {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            .grid-item {
+                padding: 10px 12px;
+                min-height: 35px;
+            }
+            .controls {
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: 1fr; /* Single column on very small screens */
+            }
+            .annotation-space {
+                width: calc(100% - 60px); /* Adjust for single column */
+            }
+            .status-badge {
+                padding: 3px 5px;
+                font-size: 0.7em;
+            }
+        }
+
+        /* Accessibility improvements (e.g., focus styles) */
+        .grid-item:focus-visible {
+            outline: 2px solid var(--primary-blue);
+            outline-offset: 2px;
+        }
+        .controls button:focus-visible,
+        .controls input:focus-visible,
+        .controls select:focus-visible,
+        .close-button:focus-visible,
+        #theme-toggle:focus-visible {
+             outline: 2px solid var(--primary-blue);
+             outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Reference Index 1–768</h1>
+
+        <div class="controls">
+            <input type="search" id="search-input" placeholder="Search by number or keyword..." aria-label="Search index items">
+            <select id="filter-dropdown" aria-label="Filter items by type">
+                <option value="all">All</option>
+                <option value="tenth">Every 10th</option>
+                <option value="hundredth">Every 100th</option>
+                <option value="api-ready">API Ready</option>
+                <option value="link-verified">Link Verified</option>
+            </select>
+            <button id="export-csv-button" aria-label="Export all links as CSV">Export to CSV</button>
+            <a href="https://github.com/gitdigital-products" target="_blank" rel="noopener noreferrer" class="controls button" aria-label="Visit GitDigital Products GitHub page">GitHub</a>
+            <button id="theme-toggle" aria-label="Toggle between light and dark mode">Toggle Dark Mode</button>
+        </div>
+
+        <div id="grid-container" class="grid-container" role="grid" aria-label="Reference Index Items">
+            <!-- Items will be dynamically generated here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="item-detail-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <span class="close-button" aria-label="Close modal">&times;</span>
+            <h2 id="modal-title" class="modal-title">Item Details: #<span id="modal-item-number"></span></h2>
+            <div class="modal-body">
+                <p><strong>External Link:</strong> <a id="modal-external-link" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+                <p><strong>API Status:</strong> <span id="modal-api-status">Loading...</span></p>
+                <div id="modal-api-data">
+                    <!-- API fetched data will go here -->
+                </div>
+                <p><strong>Notes:</strong> <span id="modal-notes">No additional notes.</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JAVASCRIPT LOGIC
+        document.addEventListener('DOMContentLoaded', () => {
+            const gridContainer = document.getElementById('grid-container');
+            const themeToggle = document.getElementById('theme-toggle');
+            const searchInput = document.getElementById('search-input');
+            const filterDropdown = document.getElementById('filter-dropdown');
+            const exportCsvButton = document.getElementById('export-csv-button');
+            const itemDetailModal = document.getElementById('item-detail-modal');
+            const closeModalButton = itemDetailModal.querySelector('.close-button');
+            const modalItemNumber = document.getElementById('modal-item-number');
+            const modalExternalLink = document.getElementById('modal-external-link');
+            const modalApiStatus = document.getElementById('modal-api-status');
+            const modalApiData = document.getElementById('modal-api-data');
+
+            const TOTAL_ITEMS = 768;
+            const API_BASE_URL = 'https://api.gitdigital-products.com/items/';
+            const EXTERNAL_LINK_BASE_URL = 'https://gitdigital.link.pc.net/';
+            const GITHUB_PAGES_BASE_URL = 'https://gitdigital-products.github.io/'; // For relative pathing if needed, though direct links are used.
+
+            let allItemsData = []; // Store data for filtering/searching
+            let apiCache = {}; // Cache API responses
+
+            // --- Theme Toggle Logic ---
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                themeToggle.textContent = 'Toggle Light Mode';
+            } else {
+                themeToggle.textContent = 'Toggle Dark Mode';
+            }
+
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                if (document.body.classList.contains('dark-mode')) {
+                    localStorage.setItem('theme', 'dark');
+                    themeToggle.textContent = 'Toggle Light Mode';
+                } else {
+                    localStorage.setItem('theme', 'light');
+                    themeToggle.textContent = 'Toggle Dark Mode';
+                }
+            });
+
+            // --- Item Generation ---
+            const createGridItem = (number) => {
+                const item = document.createElement('a'); // Use 'a' for clickable links
+                item.href = `${EXTERNAL_LINK_BASE_URL}${number}`;
+                item.target = '_blank';
+                item.rel = 'noopener noreferrer';
+                item.className = 'grid-item';
+                item.setAttribute('role', 'gridcell');
+                item.setAttribute('aria-label', `Item number ${number}`);
+                item.setAttribute('data-number', number);
+                item.setAttribute('tabindex', '0'); // Make focusable
+
+                // Add special classes for 10th and 100th
+                if (number % 10 === 0) {
+                    item.classList.add('tenth');
+                    item.setAttribute('data-type', 'tenth');
+                }
+                if (number % 100 === 0) {
+                    item.classList.add('hundredth');
+                    item.setAttribute('data-type', 'hundredth');
+                }
+
+                // Milestone indicator for 100th
+                const milestoneIndicator = document.createElement('span');
+                milestoneIndicator.className = 'milestone-indicator';
+                item.appendChild(milestoneIndicator);
+
+                const numberSpan = document.createElement('span');
+                numberSpan.className = 'number';
+                numberSpan.textContent = `${number}.`;
+                item.appendChild(numberSpan);
+
+                const annotationSpace = document.createElement('span');
+                annotationSpace.className = 'annotation-space';
+                item.appendChild(annotationSpace); // Placeholder for future annotations
+
+                const statusIndicators = document.createElement('div');
+                statusIndicators.className = 'status-indicators';
+                
+                // Placeholder badges - actual status fetched later
+                const linkBadge = document.createElement('span');
+                linkBadge.className = 'status-badge link-verified';
+                linkBadge.innerHTML = '🔗 Link'; // Initial state, will update
+                statusIndicators.appendChild(linkBadge);
+
+                const apiBadge = document.createElement('span');
+                apiBadge.className = 'status-badge api-ready';
+                apiBadge.innerHTML = '📡 API'; // Initial state, will update
+                statusIndicators.appendChild(apiBadge);
+                
+                // Add milestone badge for 100th numbers
+                if (number % 100 === 0) {
+                    const milestoneBadge = document.createElement('span');
+                    milestoneBadge.className = 'status-badge milestone';
+                    milestoneBadge.innerHTML = '⭐ Milestone';
+                    statusIndicators.appendChild(milestoneBadge);
+                }
+
+                item.appendChild(statusIndicators);
+
+                // Click event to open modal and fetch API data
+                item.addEventListener('click', (e) => {
+                    e.preventDefault(); // Prevent default link behavior for modal
+                    showItemDetails(number, item);
+                });
+                // Keyboard accessibility for modal
+                item.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        showItemDetails(number, item);
+                    }
+                });
+
+
+                return item;
+            };
+
+            const renderAllItems = (dataToRender) => {
+                gridContainer.innerHTML = ''; // Clear previous items
+                dataToRender.forEach(itemData => {
+                    gridContainer.appendChild(itemData.element);
+                });
+                // This is where virtual scrolling logic would apply.
+         
