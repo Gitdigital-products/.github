@@ -1,0 +1,19 @@
+# Use a slim Python base image
+FROM python:3.9-slim-buster
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements.txt and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the Flask application code
+COPY main.py .
+
+# Expose the port your app will run on
+EXPOSE 8080
+
+# Run the Gunicorn server. Adjust workers and threads as needed.
+# $PORT is automatically set by Cloud Run.
+CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 main:app
