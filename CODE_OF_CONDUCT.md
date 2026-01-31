@@ -412,3 +412,9 @@ Planned extensions include:
 15. Status
 
 This specification is in Alpha and subject to change as the protocol evolves.
+
+# Contributor Covenant Code of Conduct
+
+This project follows the GitDigital community standards for respectful, inclusive collaboration.
+
+Instances of abusive behavior may be reported to the maintainers.
