@@ -1,14 +1,7 @@
 ## Hi there 👋
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+<!-
+[Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
 https://img.shields.io/badge/LABEL-MESSAGE-COLOR?style=STYLE&logo=Gitdigital-products
@@ -173,14 +166,14 @@ Centralized configuration, templates, and shared standards across the GitDigital
 ---
 
 🌌 NAVIGATION
-
+`
 | Area | Link |
 |------|------|
 | Main Website | https://gitdigital-products.github.io/gitdigital-products.io (gitdigital-products.github.io in Bing) |
 | API Gateway | https://api.gitdigital-products.com |
 | GitHub Organization | https://github.com/Gitdigital-products (github.com in Bing) |
 | Docs | Coming soon |
-
+`
 ---
 
 🟩 SOLANA WAVE OUTRO
