@@ -1,96 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reference Index 1–768</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔢</text></svg>">
-    <style>
-        /* CSS: Core Styles & Theme Variables */
-        :root {
-            --bg-color-light: #f9fafb;
-            --text-color-light: #333333;
-            --item-bg-light: #ffffff;
-            --item-hover-light: #f0f0f0;
-            --tenth-bg-light: #f0f4f8; /* Softer gray */
-            --tenth-hover-light: #e0e6ec;
-            --hundredth-bg-gradient-start: #3b82f6; /* Blue */
-            --hundredth-bg-gradient-end: #2563eb;   /* Darker Blue */
-            --hundredth-text-light: #ffffff;
-            --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.08);
-            --shadow-hover-light: 0 8px 12px rgba(0, 0, 0, 0.12);
-            --header-color-light: #1a202c;
-            --border-color-light: #e2e8f0;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitDigital Products</title>
 
-            --bg-color-dark: #121212;
-            --text-color-dark: #e0e0e0;
-            --item-bg-dark: #1f1f1f;
-            --item-hover-dark: #2a2a2a;
-            --tenth-bg-dark: #2a2a2a;
-            --tenth-hover-dark: #3a3a3a;
-            --hundredth-text-dark: #ffffff;
-            --shadow-dark: 0 4px 6px rgba(0, 0, 0, 0.3);
-            --shadow-hover-dark: 0 8px 12px rgba(0, 0, 0, 0.4);
-            --header-color-dark: #f0f0f0;
-            --border-color-dark: #444444;
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0d0d0d;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
 
-            --primary-blue: #3b82f6;
-            --accent-green: #10b981;
-            --accent-red: #ef4444;
-            --accent-yellow: #f59e0b;
-        }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    }
 
-        /* Basic Reset */
-        *, *::before, *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 700;
+    }
 
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            background-color: var(--bg-color-light);
-            color: var(--text-color-light);
-            transition: background-color 0.3s ease, color 0.3s ease;
-            min-height: 100vh; /* Ensure full viewport height */
-            display: flex;
-            flex-direction: column;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
 
-        body.dark-mode {
-            background-color: var(--bg-color-dark);
-            color: var(--text-color-dark);
-        }
+    nav {
+      background: #111;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      border-bottom: 1px solid #222;
+    }
 
-        .container {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 24px;
-            flex-grow: 1; /* Allow container to grow */
-        }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-        .header {
-            text-align: center;
-            font-size: clamp(1.8em, 5vw, 2.8em); /* Responsive font size */
-            font-weight: 700;
-            margin-bottom: 32px;
-            color: var(--header-color-light);
-            transition: color 0.3s ease;
-        }
+    nav a:hover {
+      color: #fff;
+    }
 
-        body.dark-mode .header {
-            color: var(--header-color-dark);
-        }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
 
-        /* Controls Section */
-        .controls {
-            display: flex;
-            flex-wrap: wrap;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #222;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #4a00e0;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #8e2de2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>GitDigital Products</h1>
+  <p>Developer‑first infrastructure, automation, and compliance for the Solana ecosystem.</p>
+</header>
+
+<nav>
+  <a href="/docs/">Docs</a>
+  <a href="https://github.com/GitDigital-Products">GitHub</a>
+  <a href="#ecosystem">Ecosystem</a>
+  <a href="#protocols">Protocols</a>
+  <a href="#products">Products</a>
+</nav>
+
+<section class="section" id="ecosystem">
+  <h2>🌐 GitDigital Ecosystem</h2>
+  <p>The unified platform powering automation, compliance, contributor rewards, and developer tooling across Solana.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>GitDigital Products</h3>
+      <p>Core apps, tools, bots, and developer‑first automation systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>GitDigital Solana</h3>
+      <p>Compliance infrastructure, registries, protocols, and validator tooling.</p>
+    </div>
+
+    <div class="card">
+      <h3>OpenGrantStack</h3>
+      <p>Open‑source grant workflows, governance, and contributor pipelines.</p>
+    </div>
+
+    <div class="card">
+      <h3>OpenCollection</h3>
+      <p>Creator‑powered digital economy tools and community infrastructure.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="protocols">
+  <h2>⚙️ Protocols</h2>
+  <p>Standards and systems that define trust, contribution, and compliance.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Proof‑of‑Contribution Protocol</h3>
+      <p>Deterministic scoring, lifecycle rules, and contributor certification.</p>
+    </div>
+
+    <div class="card">
+      <h3>Compliance Registry</h3>
+      <p>Solana‑aligned compliance metadata and validator‑ready structures.</p>
+    </div>
+
+    <div class="card">
+      <h3>Founder‑Loan Governance</h3>
+      <p>Transparent, auditable business operations and asset tracking.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <h2>🚀 Products & Tools</h2>
+  <p>Automation, bots, SDKs, and developer‑first systems.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>HustleGPT Platform</h3>
+      <p>Creator‑powered automation and contributor‑friendly workflows.</p>
+    </div>
+
+    <div class="card">
+      <h3>LaunchFlow</h3>
+      <p>End‑to‑end repo, product, and documentation launch automation.</p>
+    </div>
+
+    <div class="card">
+      <h3>GrowthFlow</h3>
+      <p>Marketing, outreach, and ecosystem growth automation.</p>
+    </div>
+
+    <div class="card">
+      <h3>RepoSync AI</h3>
+      <p>Cross‑repo syncing, documentation generation, and governance validation.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  GitDigital Products • Open‑source infrastructure for the Solana ecosystem
+</footer>
+
+</body>
+</html>            flex-wrap: wrap;
             gap: 12px;
             margin-bottom: 32px;
             justify-content: center;
