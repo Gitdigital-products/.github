@@ -29,12 +29,12 @@ Unless stated otherwise, projects are released under permissive open‑source li
 
 Example badges you should add to each core repo README:
 
-```
+`
 ![CI](https://github.com/Gitdigital-products/.github/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/github/license/Gitdigital-products/.github
-```
 
-```
+
+
 ![Stars](https://img.shields.io/github/stars/Gitdigital-products)---
 ```
 
