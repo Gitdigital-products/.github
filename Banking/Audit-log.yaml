@@ -1,0 +1,17 @@
+version: 1
+entity: gitdigital-products
+type: banking_audit_log
+
+entries: []
+# Each entry appended as:
+# - id: AUD-2026-0001
+#   timestamp: 2026-02-09T15:45:00Z
+#   actor: RICHARD-IDENTITY-001
+#   action: deposit | withdrawal | limit_change | card_control_change
+#   amount: 5000
+#   currency: USD
+#   source_or_sink: founder_loan
+#   references:
+#     ledger_entry_id: LEDGER-2026-0001
+#     workflow_id: banking-deposit-workflow
+#   notes: Initial founder loan deposit.
