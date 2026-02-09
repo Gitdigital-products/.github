@@ -1,0 +1,38 @@
+version: 1
+entity: gitdigital-products
+type: banking_routing_map
+
+sources:
+  - id: founder_loan
+    from:
+      repo: rickcreator87/richard-credit-authority
+      ledger_repo: rickcreator87/richard-loaner-ledger
+    to:
+      bank_account: banking/account.yaml
+    description: >
+      Founder loans disbursed from Richard Credit Authority into
+      GitDigital Products operating account.
+
+  - id: product_revenue
+    from:
+      repo: gitdigital-products
+      channel: product_sales
+    to:
+      bank_account: banking/account.yaml
+    description: >
+      Revenue from GitDigital Products flows directly into the operating account.
+
+sinks:
+  - id: operating_expense
+    from:
+      bank_account: banking/account.yaml
+    to:
+      category: operating_expense
+      ledger_repo: rickcreator87/richard-loaner-ledger
+
+  - id: tax_reserve
+    from:
+      bank_account: banking/account.yaml
+    to:
+      category: tax_reserve
+      ledger_repo: rickcreator87/richard-loaner-ledger
