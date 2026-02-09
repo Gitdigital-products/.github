@@ -1,0 +1,37 @@
+version: 1
+entity: gitdigital-products
+type: business_digital_card
+
+card:
+  issuer: TODO_CARD_ISSUER
+  network: visa  # visa | mastercard | other
+  currency: USD
+  status: pending_issuance  # pending_issuance | active | suspended | cancelled
+
+limits:
+  daily_spend_max: 2500
+  monthly_spend_max: 15000
+  single_transaction_max: 2000
+
+controls:
+  allowed_categories:
+    - cloud_infrastructure
+    - software_subscriptions
+    - professional_services
+  blocked_categories:
+    - cash_advance
+    - gambling
+    - personal_retail
+  approval_required_over:
+    amount: 1000
+    authority_level: elevated  # from authority-map
+
+governance:
+  card_managers:
+    - RICHARD-IDENTITY-001
+  authority_repo: rickcreator87/richard-credit-authority
+  audit_log_ref: banking/audit-log.yaml
+
+integrations:
+  ledger_repo: rickcreator87/richard-loaner-ledger
+  products_repo: gitdigital-products
