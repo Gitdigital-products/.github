@@ -1,0 +1,42 @@
+version: 1
+entity: gitdigital-products
+type: business_bank_account
+
+account:
+  legal_name: GitDigital Products, LLC
+  display_name: GitDigital Products Operating Account
+  currency: USD
+  account_type: checking
+  institution:
+    name: TODO_BANK_NAME
+    country: US
+  identifiers:
+    account_number_ref: secure-vault-reference
+    routing_number_ref: secure-vault-reference
+  status: pending_activation  # pending_activation | active | frozen | closed
+
+governance:
+  owner_identity_ref: RICHARD-IDENTITY-001
+  authority_repo: rickcreator87/richard-credit-authority
+  allowed_uses:
+    - operating_expenses
+    - infrastructure_costs
+    - vendor_payments
+    - tax_payments
+  prohibited_uses:
+    - personal_expenses
+    - unrelated_investments
+
+integrations:
+  ledger_repo: rickcreator87/richard-loaner-ledger
+  agreements_repo: rickcreator87/richard-loaner-agreements
+  credit_authority_repo: rickcreator87/richard-credit-authority
+
+compliance:
+  tax:
+    federal: US
+    state: CO
+  documentation_required:
+    - operating_agreement
+    - EIN_confirmation
+    - bank_account_opening_docs
