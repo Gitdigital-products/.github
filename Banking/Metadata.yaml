@@ -1,0 +1,18 @@
+version: 1
+entity: gitdigital-products
+type: banking_metadata
+
+description: >
+  Banking layer for GitDigital Products, defining the operating account,
+  digital card, routing rules, workflows, and audit log.
+
+governance:
+  authority_repo: rickcreator87/richard-credit-authority
+  primary_owner_identity_ref: RICHARD-IDENTITY-001
+  tax_jurisdiction:
+    federal: US
+    state: CO
+
+integrations:
+  ledger_repo: rickcreator87/richard-loaner-ledger
+  agreements_repo: rickcreator87/richard-loaner-agreements
