@@ -1,4 +1,42 @@
 
+# 🧱 GitDigital Badge Wall
+
+## 🚀 Milestones
+🧱 Architecture Complete  
+📘 Spec v1.0  
+🛡️ Compliance Ready  
+🚀 Devnet Live  
+🌐 Mainnet Candidate  
+
+## 🌀 Tiers
+🌱 Concept  
+🔧 Prototype  
+🟦 Devnet  
+🧪 Audit Prep  
+🟩 Mainnet  
+🌀 Ecosystem Ready  
+
+## 🔱 Solana Signals
+🔱 Solana Aligned  
+🟣 Grant Candidate  
+🟪 Grant Awarded  
+🔗 Ecosystem Integration  
+🛡️ Security Ready  
+
+## 💼 Sponsors
+💼 Sponsor Ready  
+📊 DD Ready  
+🏢 Enterprise Ready  
+🟦 Open Source  
+
+## 🏛️ Governance & Compliance
+🏛️ Governance Published  
+🔐 Security Policy  
+📂 Audit Packet  
+📝 Reviewer Ready  
+🧬 Compliance dNFT
+
+
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 
