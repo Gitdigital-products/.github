@@ -1,3 +1,6 @@
+
+
+
 # 🧭 Navigation
 
 ## 🏛️ Core
@@ -30,6 +33,194 @@
 ![Branding](https://img.shields.io/badge/Branding-Consistent-673ab7)
 
 ---
+
+# 📒 Loaner Ledger
+
+## 🏷️ Badges
+![Ledger](https://img.shields.io/badge/Ledger-Immutable-795548)
+![Credit](https://img.shields.io/badge/Credit-Tracked-4caf50)
+![Compliance](https://img.shields.io/badge/Compliance-Audit%20Ready-ff5722)
+
+---
+
+## 📘 Summary
+The Loaner Ledger is the immutable financial record for all loans, repayments, and credit actions.
+
+---
+
+## 🧱 Ledger Structure
+
+### **1. Entries**
+- Loan issued  
+- Repayment  
+- Adjustment  
+- Correction (requires dual approval)  
+
+### **2. Metadata**
+- Borrower  
+- Amount  
+- Date  
+- Agreement link  
+- Workflow ID  
+
+---
+
+## 🔗 Related Pages
+- [[Credit Authority]]
+- [[Legal Agreements]]
+
+
+# 💳 Credit Authority
+
+## 🏷️ Badges
+![Credit](https://img.shields.io/badge/Credit%20Authority-Operational-4caf50)
+![Lending](https://img.shields.io/badge/Lending-Active-ff9800)
+![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
+
+---
+
+## 📘 Summary
+The Credit Authority governs:
+- Credit caps  
+- Loan approvals  
+- Repayment logic  
+- Borrower experience  
+
+---
+
+## 🧱 Components
+
+### **1. Credit Caps**
+Dynamic, rule‑based.
+
+### **2. Approval Workflow**
+Dual‑founder approval required.
+
+### **3. Documentation**
+Auto‑generated agreements.
+
+### **4. Ledger Integration**
+All loans logged immutably.
+
+---
+
+## 🔗 Related Pages
+- [[Loaner Ledger]]
+- [[Legal Agreements]]
+
+
+# 🔌 API Gateway
+
+## 🏷️ Badges
+![API](https://img.shields.io/badge/API-Gateway-673ab7)
+![Automation](https://img.shields.io/badge/Automation-Integrated-03a9f4)
+![Security](https://img.shields.io/badge/Security-Hardened-ff5722)
+
+---
+
+## 📘 Summary
+The API Gateway connects:
+- Workflow Engine  
+- KYC Validator  
+- Ledger  
+- Agreements  
+- External services  
+
+---
+
+## 🧱 Capabilities
+
+### **1. Unified Interface**
+Single entry point for automation.
+
+### **2. Secure Routing**
+Identity‑aware, authority‑aware.
+
+### **3. Logging**
+Immutable audit trails.
+
+---
+
+## 🔗 Related Pages
+- [[Workflow Engine]]
+- [[Loaner Ledger]]
+
+
+# 🪪 KYC Validator
+
+## 🏷️ Badges
+![KYC](https://img.shields.io/badge/KYC-Active-009688)
+![Identity](https://img.shields.io/badge/Identity-Verified-3f51b5)
+![Security](https://img.shields.io/badge/Security-Audit%20Ready-ff5722)
+
+---
+
+## 📘 Summary
+The KYC Validator ensures:
+- Identity verification  
+- Signature validation  
+- Authority enforcement  
+- Fraud prevention  
+
+---
+
+## 🧱 Core Functions
+
+### **1. Identity Capture**
+Name, address, signature, ID.
+
+### **2. Signature Blocks**
+Required for all agreements.
+
+### **3. Workflow Integration**
+No workflow proceeds without KYC.
+
+---
+
+## 🔗 Related Pages
+- [[Workflow Engine]]
+- [[Legal Agreements]]
+
+
+# ⚙️ Workflow Engine
+
+## 🏷️ Badges
+![Automation](https://img.shields.io/badge/Automation-Workflow%20Engine-03a9f4)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Active-blueviolet)
+![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
+
+---
+
+## 📘 Summary
+The Workflow Engine automates:
+- Approvals  
+- Document generation  
+- Ledger entries  
+- Identity checks  
+- Notifications  
+
+---
+
+## 🧱 Core Features
+
+### **1. Modal Forms**
+Error‑proof data collection.
+
+### **2. Templater Integration**
+Auto‑generated agreements and ledger entries.
+
+### **3. KYC Enforcement**
+Identity validation before workflow execution.
+
+### **4. CI/CD Integration**
+Automated testing and deployment.
+
+---
+
+## 🔗 Related Pages
+- [[KYC Validator]]
+- [[API Gateway]]
+- [[Legal Agreements]]
 
 ## 📘 Summary
 The Badge Catalog defines all official GitDigital badges for:
