@@ -1,3 +1,176 @@
+# 🧭 Navigation
+
+## 🏛️ Core
+- [[Home]]
+- [[Ecosystem Overview]]
+- [[Governance Model]]
+- [[Tax-First Architecture]]
+- [[Contributor Authority]]
+
+## ⚙️ Automation
+- [[Workflow Engine]]
+- [[KYC Validator]]
+- [[API Gateway]]
+
+## 💳 Lending
+- [[Credit Authority]]
+- [[Loaner Ledger]]
+- [[Legal Agreements]]
+
+## 📚 Documentation
+- [[Documentation Wizard]]
+- [[Templates]]
+- [[Badge Catalog]]
+
+
+# 🏷️ Badge Catalog
+
+## 🏷️ Badges
+![Badges](https://img.shields.io/badge/Badges-Catalog-ff9800)
+![Branding](https://img.shields.io/badge/Branding-Consistent-673ab7)
+
+---
+
+## 📘 Summary
+The Badge Catalog defines all official GitDigital badges for:
+- Governance  
+- Automation  
+- Lending  
+- Documentation  
+- Security  
+- Ecosystem  
+
+---
+
+## 🧱 Categories
+
+### **1. Governance**
+Governance, Authority, Compliance.
+
+### **2. Automation**
+Workflow Engine, KYC, API Gateway.
+
+### **3. Lending**
+Credit Authority, Loaner Ledger.
+
+### **4. Documentation**
+Docs, Templates, Wizard.
+
+---
+
+## 🔗 Related Pages
+- [[Templates]]
+- [[Documentation Wizard]]
+
+
+# 🧩 Templates Library
+
+## 🏷️ Badges
+![Templates](https://img.shields.io/badge/Templates-Library-8bc34a)
+![Docs](https://img.shields.io/badge/Docs-Standardized-2196f3)
+
+---
+
+## 📘 Summary
+A complete library of reusable templates for:
+- Agreements  
+- Ledgers  
+- READMEs  
+- Workflows  
+- Contributor onboarding  
+
+---
+
+## 🧱 Template Types
+
+### **1. Agreements**
+Founder loans, contributor contracts.
+
+### **2. Documentation**
+README, wiki, governance docs.
+
+### **3. Automation**
+Workflow forms, metadata blocks.
+
+---
+
+## 🔗 Related Pages
+- [[Documentation Wizard]]
+- [[Badge Catalog]]
+
+
+# 🪄 Documentation Wizard
+
+## 🏷️ Badges
+![Docs](https://img.shields.io/badge/Docs-Wizard%20Powered-9c27b0)
+![Templates](https://img.shields.io/badge/Templates-Automated-8bc34a)
+![Standards](https://img.shields.io/badge/Standards-Consistent-2196f3)
+
+---
+
+## 📘 Summary
+The Documentation Wizard automates:
+- README generation  
+- Agreement templates  
+- Ledger entries  
+- Contributor onboarding docs  
+
+---
+
+## 🧱 Features
+
+### **1. Template Library**
+Reusable, standardized modules.
+
+### **2. Metadata Enforcement**
+Ensures consistent structure.
+
+### **3. Badge Integration**
+Automatic badge walls.
+
+---
+
+## 🔗 Related Pages
+- [[Templates]]
+- [[Badge Catalog]]
+
+
+# 📜 Legal Agreements
+
+## 🏷️ Badges
+![Agreements](https://img.shields.io/badge/Agreements-Legal%20Binding-795548)
+![Identity](https://img.shields.io/badge/Identity-Verified-3f51b5)
+![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
+
+---
+
+## 📘 Summary
+All agreements in GitDigital are:
+- Legally binding  
+- Identity‑verified  
+- Signature‑required  
+- Immutable  
+
+---
+
+## 🧱 Agreement Types
+
+### **1. Founder Loan Agreements**
+Dual‑signature, KYC‑verified.
+
+### **2. Contributor Agreements**
+Role‑based, authority‑scoped.
+
+### **3. Operational Agreements**
+Workflow‑generated.
+
+---
+
+## 🔗 Related Pages
+- [[KYC Validator]]
+- [[Loaner Ledger]]
+
+
 
 # 🧱 GitDigital Badge Wall
 
