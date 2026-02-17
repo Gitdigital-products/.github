@@ -25,6 +25,213 @@
 - [[Templates]]
 - [[Badge Catalog]]
 
+# 🧑‍💻 Contributor Authority
+
+## 🏷️ Badges
+![Authority](https://img.shields.io/badge/Authority-Defined-9c27b0)
+![Roles](https://img.shields.io/badge/Roles-Clear-03a9f4)
+![Governance](https://img.shields.io/badge/Governance-Enforced-blue)
+
+---
+
+## 📘 Summary
+Contributor authority defines what each participant can do inside the GitDigital ecosystem.
+
+---
+
+## 🧩 Authority Levels
+
+### **1. Owner**
+Full authority, dual‑approval required for financial actions.
+
+### **2. Manager**
+Operational authority, workflow execution, contributor onboarding.
+
+### **3. Contributor**
+Task‑level authority, no financial permissions.
+
+### **4. Automation**
+Workflow Engine, KYC Validator, API Gateway.
+
+---
+
+## 🔗 Related Pages
+- [[Governance Model]]
+- [[Workflow Engine]]
+
+# 🧾 Tax‑First Architecture
+
+## 🏷️ Badges
+![Tax](https://img.shields.io/badge/Tax%20First-Enforced-7952b3)
+![Compliance](https://img.shields.io/badge/Compliance-Audit%20Ready-ff5722)
+![Governance](https://img.shields.io/badge/Governance-Integrated-blue)
+
+---
+
+## 📘 Summary
+Tax‑first architecture is the backbone of GitDigital.  
+Every workflow, repo, agreement, and ledger is designed to:
+
+- Separate personal vs business finances  
+- Maintain audit‑ready documentation  
+- Enforce identity and authority  
+- Prevent accidental commingling  
+
+---
+
+## 🧱 Core Principles
+
+### **1. Separation of Funds**
+No money moves without:
+- Documentation  
+- Approval  
+- Ledger entry  
+
+### **2. Immutable Records**
+All financial actions are logged in:
+- Loaner Ledger  
+- Agreements repo  
+- Workflow Engine logs  
+
+### **3. Automation Enforcement**
+The system prevents:
+- Unauthorized transfers  
+- Missing documentation  
+- Unverified identities  
+
+---
+
+## 🔗 Related Pages
+- [[Credit Authority]]
+- [[Loaner Ledger]]
+- [[Legal Agreements]]
+
+
+# 🏛️ Governance Model
+
+## 🏷️ Badges
+![Governance](https://img.shields.io/badge/Governance-Active-blue)
+![Authority](https://img.shields.io/badge/Authority-Multi--Level-9c27b0)
+![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
+
+---
+
+## 📘 Summary
+The GitDigital governance model ensures:
+- Clear authority boundaries  
+- Dual‑founder approvals  
+- Immutable audit trails  
+- Contributor safety  
+- Tax‑first separation  
+
+---
+
+## 🧩 Governance Components
+
+### **1. Authority Levels**
+- Owner  
+- Manager  
+- Contributor  
+- Automation  
+
+### **2. Approval Rules**
+- All financial actions require dual‑founder approval  
+- All agreements require identity‑verified signatures  
+
+### **3. Compliance Enforcement**
+- KYC Validator  
+- Workflow Engine  
+- Immutable ledger entries  
+
+---
+
+## 🔗 Related Pages
+- [[Contributor Authority]]
+- [[Tax-First Architecture]]
+- [[Legal Agreements]]
+
+
+# 🌐 Ecosystem Overview
+
+## 🏷️ Badges
+![Ecosystem](https://img.shields.io/badge/Ecosystem-GitDigital%20Products-ff9800)
+![Architecture](https://img.shields.io/badge/Architecture-Federated-673ab7)
+![Governance](https://img.shields.io/badge/Governance-Active-blue)
+
+---
+
+## 📘 Summary
+The GitDigital Products ecosystem is a **multi‑org, multi‑repo, multi‑workspace** architecture designed for clarity, compliance, automation, and contributor empowerment.
+
+It is built around:
+- Federated governance  
+- Tax‑first financial separation  
+- Automated workflows  
+- Contributor‑safe authority levels  
+- Immutable documentation and agreements  
+
+---
+
+## 🧱 Core Layers
+
+### **1. Governance Layer**
+Defines authority, roles, approvals, and compliance.
+
+### **2. Automation Layer**
+Workflow Engine, KYC Validator, API Gateway.
+
+### **3. Lending Layer**
+Credit Authority, Loaner Ledger, Agreements.
+
+### **4. Documentation Layer**
+Templates, Wizards, Badge Catalog, Standards.
+
+---
+
+## 🔗 Related Pages
+- [[Governance Model]]
+- [[Tax-First Architecture]]
+- [[Workflow Engine]]
+
+
+# 🏛️ GitDigital‑products Wiki
+
+Welcome to the official documentation hub for the **GitDigital Products Ecosystem** — a federated, multi‑org architecture powering governance, automation, compliance, and contributor empowerment.
+
+## 🏷️ Badge Wall
+![Governance](https://img.shields.io/badge/Governance-Active-blue)
+![Compliance](https://img.shields.io/badge/Compliance-Solana%20Aligned-0a7)
+![Tax%20First](https://img.shields.io/badge/Tax%20First-Enforced-7952b3)
+![Automation](https://img.shields.io/badge/Automation-Workflow%20Engine-03a9f4)
+![KYC](https://img.shields.io/badge/KYC-Validator%20Active-009688)
+![Docs](https://img.shields.io/badge/Docs-Standardized-2196f3)
+![Credit](https://img.shields.io/badge/Credit%20Authority-Operational-4caf50)
+
+---
+
+## 📚 Documentation Index
+
+### **Core Architecture**
+- [[Ecosystem Overview]]
+- [[Governance Model]]
+- [[Tax-First Architecture]]
+- [[Contributor Authority]]
+
+### **Automation Layer**
+- [[Workflow Engine]]
+- [[KYC Validator]]
+- [[API Gateway]]
+
+### **Lending & Credit**
+- [[Credit Authority]]
+- [[Loaner Ledger]]
+- [[Legal Agreements]]
+
+### **Documentation Standards**
+- [[Documentation Wizard]]
+- [[Templates]]
+- [[Badge Catalog]]
+
 
 # 🏷️ Badge Catalog
 
