@@ -2,8 +2,10 @@
 https://proof-of-contribution-protocol-core.onrender.com
 
 l-Products
-Open Collective: https://opencollective.com/opengrantstack
-███████████████████████████████████████████████████████████
+Open Collective: 
+
+https://opencollective.com/opengrantstack███████████████████████████████████████████████████████████
+
 JavaScript SDK
 IFrame
 Close
