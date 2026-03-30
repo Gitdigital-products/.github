@@ -742,12 +742,40 @@ A compliance layer designed to bridge institutional KYC/AML processes with Solan
 # Clone the repo
 git clone https://github.com/Gitdigital-products/solana-kyc-compliance-sdk.git
 cd solana-kyc-compliance-sdk
-
+```
 # Build the Rust program
+```bash
 cd programs/compliance_registry
 cargo build-bpf
-
+```
 # Build the SDK
+```bash
 cd ../../sdk/typescript
 npm install && npm run build
+```
 Open-source SDK for enforcing KYC/AML compliance directly at the token level on Solana using Token Extensions (Transfer Hook &amp; Permanent Delegate). Includes a Rust on-chain program, TypeScript SDK, and Compliance Registry for institutional-grade Real-World Asset (RWA) issuance.
+
+```sh
+import { Polar } from "@polar-sh/sdk";
+
+const polar = new Polar({
+  accessToken: process.env["POLAR_ACCESS_TOKEN"] ?? "",
+});
+
+export const GET = async (req: Request, res: Response) => {
+  await polar.events.ingest({
+    events: [
+      {
+        name: "Loyalty",
+        // Replace with your logic to get the customer id
+        externalCustomerId: req.ctx.customerId,
+        metadata: {
+          route: "/api/metered-route",
+          method: "GET",
+        },
+      },
+    ],
+  });
+
+  return new Response({ hello: 'world' })
+}
