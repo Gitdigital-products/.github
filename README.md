@@ -1,5 +1,6 @@
 <script src="https://liberapay.com/GitDigital_liberapay/widgets/button.js"></script>
-<noscript><a href="https://liberapay.com/GitDigital_liberapay/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<noscript>
+<a href="https://liberapay.com/GitDigital_liberapay/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 <a href='https://ko-fi.com/T6T61WAZYZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
@@ -33,8 +34,11 @@
 # 🧑‍💻 Contributor Authority
 
 ## 🏷️ Badges
+
 ![Authority](https://img.shields.io/badge/Authority-Defined-9c27b0)
+
 ![Roles](https://img.shields.io/badge/Roles-Clear-03a9f4)
+
 ![Governance](https://img.shields.io/badge/Governance-Enforced-blue)
 
 ---
@@ -61,14 +65,19 @@ Workflow Engine, KYC Validator, API Gateway.
 ---
 
 ## 🔗 Related Pages
+
 - [[Governance Model]]
+
 - [[Workflow Engine]]
 
 # 🧾 Tax‑First Architecture
 
 ## 🏷️ Badges
+
 ![Tax](https://img.shields.io/badge/Tax%20First-Enforced-7952b3)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Audit%20Ready-ff5722)
+
 ![Governance](https://img.shields.io/badge/Governance-Integrated-blue)
 
 ---
@@ -116,7 +125,9 @@ The system prevents:
 
 ## 🏷️ Badges
 ![Governance](https://img.shields.io/badge/Governance-Active-blue)
+
 ![Authority](https://img.shields.io/badge/Authority-Multi--Level-9c27b0)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
 
 ---
@@ -160,7 +171,9 @@ The GitDigital governance model ensures:
 
 ## 🏷️ Badges
 ![Ecosystem](https://img.shields.io/badge/Ecosystem-GitDigital%20Products-ff9800)
+
 ![Architecture](https://img.shields.io/badge/Architecture-Federated-673ab7)
+
 ![Governance](https://img.shields.io/badge/Governance-Active-blue)
 
 ---
@@ -205,11 +218,17 @@ Welcome to the official documentation hub for the **GitDigital Products Ecosyste
 
 ## 🏷️ Badge Wall
 ![Governance](https://img.shields.io/badge/Governance-Active-blue)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Solana%20Aligned-0a7)
+
 ![Tax%20First](https://img.shields.io/badge/Tax%20First-Enforced-7952b3)
+
 ![Automation](https://img.shields.io/badge/Automation-Workflow%20Engine-03a9f4)
+
 ![KYC](https://img.shields.io/badge/KYC-Validator%20Active-009688)
+
 ![Docs](https://img.shields.io/badge/Docs-Standardized-2196f3)
+
 ![Credit](https://img.shields.io/badge/Credit%20Authority-Operational-4caf50)
 
 ---
@@ -242,6 +261,7 @@ Welcome to the official documentation hub for the **GitDigital Products Ecosyste
 
 ## 🏷️ Badges
 ![Badges](https://img.shields.io/badge/Badges-Catalog-ff9800)
+
 ![Branding](https://img.shields.io/badge/Branding-Consistent-673ab7)
 
 ---
@@ -249,8 +269,11 @@ Welcome to the official documentation hub for the **GitDigital Products Ecosyste
 # 📒 Loaner Ledger
 
 ## 🏷️ Badges
+
 ![Ledger](https://img.shields.io/badge/Ledger-Immutable-795548)
+
 ![Credit](https://img.shields.io/badge/Credit-Tracked-4caf50)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Audit%20Ready-ff5722)
 
 ---
@@ -286,7 +309,9 @@ The Loaner Ledger is the immutable financial record for all loans, repayments, a
 
 ## 🏷️ Badges
 ![Credit](https://img.shields.io/badge/Credit%20Authority-Operational-4caf50)
+
 ![Lending](https://img.shields.io/badge/Lending-Active-ff9800)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
 
 ---
@@ -325,7 +350,9 @@ All loans logged immutably.
 
 ## 🏷️ Badges
 ![API](https://img.shields.io/badge/API-Gateway-673ab7)
+
 ![Automation](https://img.shields.io/badge/Automation-Integrated-03a9f4)
+
 ![Security](https://img.shields.io/badge/Security-Hardened-ff5722)
 
 ---
@@ -362,7 +389,9 @@ Immutable audit trails.
 
 ## 🏷️ Badges
 ![KYC](https://img.shields.io/badge/KYC-Active-009688)
+
 ![Identity](https://img.shields.io/badge/Identity-Verified-3f51b5)
+
 ![Security](https://img.shields.io/badge/Security-Audit%20Ready-ff5722)
 
 ---
@@ -398,7 +427,9 @@ No workflow proceeds without KYC.
 
 ## 🏷️ Badges
 ![Automation](https://img.shields.io/badge/Automation-Workflow%20Engine-03a9f4)
+
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Active-blueviolet)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
 
 ---
@@ -469,7 +500,9 @@ Docs, Templates, Wizard.
 # 🧩 Templates Library
 
 ## 🏷️ Badges
+
 ![Templates](https://img.shields.io/badge/Templates-Library-8bc34a)
+
 ![Docs](https://img.shields.io/badge/Docs-Standardized-2196f3)
 
 ---
@@ -506,7 +539,9 @@ Workflow forms, metadata blocks.
 
 ## 🏷️ Badges
 ![Docs](https://img.shields.io/badge/Docs-Wizard%20Powered-9c27b0)
+
 ![Templates](https://img.shields.io/badge/Templates-Automated-8bc34a)
+
 ![Standards](https://img.shields.io/badge/Standards-Consistent-2196f3)
 
 ---
@@ -541,8 +576,11 @@ Automatic badge walls.
 # 📜 Legal Agreements
 
 ## 🏷️ Badges
+
 ![Agreements](https://img.shields.io/badge/Agreements-Legal%20Binding-795548)
+
 ![Identity](https://img.shields.io/badge/Identity-Verified-3f51b5)
+
 ![Compliance](https://img.shields.io/badge/Compliance-Enforced-0a7)
 
 ---
@@ -625,10 +663,12 @@ Workflow‑generated.
 
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
+
 ![Security Scanning](https://img.shields.io/badge/security-scanning-inactive-red)
 
 <!-- Activity Badges -->
 ![Last Commit](https://img.shields.io/badge/commit-recent-yellow)
+
 ![Release Status](https://img.shields.io/badge/releases-none-red)
 
 <!-- Technology Badges -->
@@ -700,26 +740,35 @@ jobs:
 
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
+
 ![Security Scanning](https://img.shields.io/badge/security-scanning-active-green)
+
 ![Dependency Status](https://img.shields.io/badge/deps-up--to--date-brightgreen)
 
 <!-- Activity Badges -->
 ![Last Commit](https://img.shields.io/badge/commit-recent-yellow)
+
 ![Issues Health](https://img.shields.io/badge/issues-healthy-brightgreen)
+
 ![PR Velocity](https://img.shields.io/badge/PR-velocity-fast-brightgreen)
 
 <!-- Maturity Badges -->
 ![CI Status](https://img.shields.io/badge/CI-passing-brightgreen)
+
 ![Versioning](https://img.shields.io/badge/versioning-semver-blue)
+
 ![Test Coverage](https://img.shields.io/badge/coverage-comprehensive-brightgreen)
 
 <!-- Technology Badges -->
 ![Containerized](https://img.shields.io/badge/containerized-Docker-blue)
+
 ![CI Platform](https://img.shields.io/badge/CI-GitHub_Actions-blue)
 
 <!-- Quality Badges -->
 ![Linting](https://img.shields.io/badge/linting-passing-brightgreen)
+
 ![Documentation](https://img.shields.io/badge/docs-complete-brightgreen)
+
 ![Code Owners](https://img.shields.io/badge/codeowners-defined-blue)
 
 <!-- Community Badges -->
@@ -738,16 +787,19 @@ A compliance layer designed to bridge institutional KYC/AML processes with Solan
 - **Regulatory Alignment:** Eases the adoption of compliant Real-World Asset issuance.
 
 ### Quick Start
+
 ```bash
 # Clone the repo
 git clone https://github.com/Gitdigital-products/solana-kyc-compliance-sdk.git
 cd solana-kyc-compliance-sdk
 ```
+
 # Build the Rust program
 ```bash
 cd programs/compliance_registry
 cargo build-bpf
 ```
+
 # Build the SDK
 ```bash
 cd ../../sdk/typescript
