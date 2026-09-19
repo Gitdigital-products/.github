@@ -1,7 +1,13 @@
-https://www.patreon.com/posts/159889511?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
-https://www.patreon.com/posts/159439707?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
-https://www.patreon.com/posts/159143626?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
-https://linktr.ee/qr/1d7bd39c-13f2-49dc-bdaa-a2740cd5411e
+# Links
+
+[![Patreon Post 1](https://img.shields.io/badge/Patreon-Post%201-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/posts/159889511?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink)
+
+[![Patreon Post 2](https://img.shields.io/badge/Patreon-Post%202-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/posts/159439707?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink)
+
+[![Patreon Post 3](https://img.shields.io/badge/Patreon-Post%203-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/posts/159143626?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink)
+
+[![Linktree](https://img.shields.io/badge/Linktree-Open-43E55E?logo=linktree&logoColor=white)](https://linktr.ee/qr/1d7bd39c-13f2-49dc-bdaa-a2740cd5411e)
+
 
 https://linktr.ee/qr/1d7bd39c-13f2-49dc-bdaa-a2740cd5411e
 
