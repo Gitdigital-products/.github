@@ -1,3 +1,8 @@
+https://www.patreon.com/posts/159889511?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
+https://www.patreon.com/posts/159439707?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
+https://www.patreon.com/posts/159143626?utm_campaign=postshare_creator&utm_content=android_share&utm_source=copyLink
+https://linktr.ee/qr/1d7bd39c-13f2-49dc-bdaa-a2740cd5411e
+
 https://linktr.ee/qr/1d7bd39c-13f2-49dc-bdaa-a2740cd5411e
 
 <script src="https://liberapay.com/GitDigital_liberapay/widgets/button.js"></script>
